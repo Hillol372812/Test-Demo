@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Click on LogIn button",
+        "description": "",
+        "id": "login-into-easytrip;click-on-login-button;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39104914476,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to Login Page",
+            "match": {
+              "location": "EasyTrip.user_Navigate_to_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3988967601,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the title of the Page",
+            "match": {
+              "location": "EasyTrip.validate_the_title_of_the_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235350456,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on My Account",
+            "match": {
+              "location": "EasyTrip.click_on_My_Account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 336781757,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Sign in button",
+            "match": {
+              "location": "EasyTrip.click_on_Sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1259277846,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter\t\"Test@gmail.com\" and \"Password@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@gmail.com",
+                  "offset": 7
+                },
+                {
+                  "val": "Password@123",
+                  "offset": 28
+                }
+              ],
+              "location": "EasyTrip.enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10373507982,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Log in button",
+            "match": {
+              "location": "EasyTrip.click_on_Log_in_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into EasyTrip",
+    "description": "",
+    "id": "login-into-easytrip",
+    "keyword": "Feature",
+    "uri": "src/main/java/Features/EasyTrip.feature"
+  }
+]
