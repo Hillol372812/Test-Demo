@@ -42,7 +42,8 @@ public class EasyTrip {
 		    // Write code here that turns the phrase above into concrete actions
 			Actions actions = new Actions(driver);
 		WebElement	MyAccount=driver.findElement(By.id("spnMyAcc"));
-		actions.moveToElement(MyAccount).perform();			
+		actions.moveToElement(MyAccount).perform();	
+		System.out.println("Temporary added");
 		    
 		}
 
